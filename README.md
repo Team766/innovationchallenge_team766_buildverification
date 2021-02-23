@@ -1,0 +1,2 @@
+# innovationchallenge_team766_buildverification
+Build verification script for electronics assembly
