@@ -12,6 +12,7 @@ void setup(void) {
   if (!dso32.begin_I2C()) {
     while (1) {
       delay(10);
+     Serial.println("Accelermeter not found, check connections")
     }
   }
  
