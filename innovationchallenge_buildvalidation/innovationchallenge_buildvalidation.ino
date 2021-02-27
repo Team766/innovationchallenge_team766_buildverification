@@ -43,7 +43,6 @@ void loop() {
   Serial.print(" \tZ: ");
   Serial.print(accel.acceleration.z);
   Serial.println(" m/s^2 ");
- 
   /* Display the results (rotation is measured in rad/s) */
   Serial.print("\t\tGyro X: ");
   Serial.print(gyro.gyro.x);
