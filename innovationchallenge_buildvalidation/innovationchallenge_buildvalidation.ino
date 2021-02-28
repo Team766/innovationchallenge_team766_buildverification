@@ -17,7 +17,7 @@ void setup(void) {
   }
  
   Serial.println("LSM6DSO32 Found!");
- 
+  pinMode(BUZZER, OUTPUT);
   dso32.setAccelRange(LSM6DSO32_ACCEL_RANGE_8_G);
   dso32.setGyroRange(LSM6DS_GYRO_RANGE_250_DPS );
   dso32.setAccelDataRate(LSM6DS_RATE_52_HZ);
